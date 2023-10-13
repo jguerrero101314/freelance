@@ -1,3 +1,11 @@
+:root {
+  --white: #ffffff;
+  --black: #212121;
+  --primary: #ffc107;
+  --gray: #757575;
+  --font-main: 3.8rem;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -5,11 +13,12 @@ body {
   font-size: 16px; /*1 rem = 10px*/
 }
 
-header h1 {
+.title {
   text-align: center;
-  font-size: 3.8rem;
+  font-size: var(--font-main);
+  color: var(--primary);
 }
 
-header span {
+.title span {
   font-size: 2rem;
 }
